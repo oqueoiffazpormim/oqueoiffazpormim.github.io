@@ -25,4 +25,7 @@ function medicinais(){
 function concurso(){
     window.open('https://www.ifpb.edu.br/joaopessoa/noticias/2018/02/aprovados-em-concurso-do-estado-alunos-do-ifpb-relatam-experiencia-na-graduacao')
 }
+function teatro(){
+    window.open('https://www.ifpb.edu.br/campinagrande/noticias/2018/12/espetaculo-teatral-de-alunos-do-ifpb-campina-e-apresentado-em-escola-municipal')
+}
 
