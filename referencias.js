@@ -19,4 +19,7 @@ function quimica(){
 function matematica(){
     window.open('http://www.ifpb.edu.br/campinagrande/noticias/2016/12/alunos-do-campus-campina-grande-sao-premiados-na-olimpiada-pessoense-de-matematica')
 }
+function medicinais(){
+    window.open('http://www.ifpb.edu.br/sousa/noticias/2019/02/projeto-de-extensao-instala-canteiros-medicinais-em-sousa')
+}
 
