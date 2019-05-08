@@ -37,4 +37,7 @@ function racismo(){
 function agricultura(){
     window.open('http://www.ifpb.edu.br/esperanca/noticias/2017/11/acoes-de-extensao-do-campus-esperanca')
 }
+function expotec(){
+    window.open('http://www.ifpb.edu.br/noticias/2018/11/ifpb-participa-da-expotec-2018')
+}
 
