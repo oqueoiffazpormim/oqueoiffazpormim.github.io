@@ -1,4 +1,8 @@
 #preto{
     color: black;
    }
+#carouselExampleIndicators,#carousel3,#carousel,#carousel4,#carousel5,#carousel6{
+    margin-left: auto;
+    margin-right: auto;
+}
    
