@@ -28,4 +28,10 @@ function concurso(){
 function teatro(){
     window.open('https://www.ifpb.edu.br/campinagrande/noticias/2018/12/espetaculo-teatral-de-alunos-do-ifpb-campina-e-apresentado-em-escola-municipal')
 }
+function cordel(){
+    window.open('https://www.ifpb.edu.br/campinagrande/noticias/2017/11/literatura-de-cordel-para-despertar-o-prazer-pela-leitura')
+}
+function racismo(){
+    window.open('https://www.ifpb.edu.br/campinagrande/noticias/2017/12/i-semana-de-combate-a-intolerancia-e-ao-racismo')
+}
 
