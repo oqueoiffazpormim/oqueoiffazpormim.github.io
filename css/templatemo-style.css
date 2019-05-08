@@ -161,7 +161,7 @@ p {	line-height: 2.1; }
     max-width: none;
     width: 50%;
     text-align: center;
-    background-color:rgb(152,251,152);  
+    background-color:rgba(130, 211, 130, 0.884);  
 
     height: 60px;
     font-size: 1.4rem;
@@ -328,15 +328,15 @@ button:focus { outline: none; }
 	position: static;	
 	margin-bottom: 0;
 	-ms-flex-item-align: end;
-	    -webkit-align-self: flex-end;
-	        align-self: flex-end;
+	-webkit-align-self: flex-end;
+	align-self: flex-end;
 }
 
 .tm-testi-img {
 	margin-right: 0;
 	margin-bottom: 50px;
-	max-width: 250px;
-	max-height: 250px; /* to fix firefox bug */
+	max-width: 400px;
+	max-height: 400px; /* to fix firefox bug */
 	width: 100%;
 	height: auto;
 }
@@ -446,8 +446,8 @@ button:focus { outline: none; }
 	margin-bottom: 15px;
 }
 
-.tm-blue-bg { 
-	background-color: #06C;
+.tm-green-bg { 
+	background-color:#008000;
 	color: white;
 }
 
@@ -456,9 +456,9 @@ button:focus { outline: none; }
 	color: #333;
 }
 
-.tm-blue-bordered {	border: 1px solid #06C; }
+.tm-green-bordered {	border: 1px solid #008000; }
 .tm-gray-bordered { border: 1px solid #CDCDCD; }
-.tm-blue-text { color: #06C; }
+.tm-green-text { color: #008000; }
 .tm-yellow-text { color: #FF0; }
 .tm-black-text { color: #000; }
 .tm-about-description-2 { margin-bottom: 60px; }
@@ -595,7 +595,7 @@ button:focus { outline: none; }
         -webkit-box-align: center;
         -webkit-align-items: center;
             align-items: center;
-    background: #0066CC;
+    background: #008000;
     color: white;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
@@ -603,7 +603,7 @@ button:focus { outline: none; }
 
 .tm-tab-link-label {
 	background: transparent;
-	color: #0066CC;
+	color: #008000;
 	display: block;
 	padding-left: 5%;
     padding-right: 5%;
@@ -612,7 +612,7 @@ button:focus { outline: none; }
 .tm-tab-link.active .tm-tab-icon,
 .tm-tab-link:hover .tm-tab-icon {
 	background: white;
-	color: #0066CC;
+	color:#008000;
 }
 
 .tm-tab-link.active .tm-tab-link-label,
@@ -621,7 +621,7 @@ button:focus { outline: none; }
 }
 
 .tm-tab-link.active,
-.tm-tab-link:hover { background: #0066CC; }
+.tm-tab-link:hover { background: #008000; }
 
 .tm-tab-content-box-col {
 	display: -webkit-box;
@@ -640,7 +640,7 @@ button:focus { outline: none; }
 }
 
 .tm-tab-content-box { 
-	border: 1px solid #0066CC;
+	border: 1px solid #008000;
 	display: -ms-flexbox; 
 	display: -webkit-box; 
 	display: -webkit-flex; 
