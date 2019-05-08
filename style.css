@@ -1,8 +1,17 @@
-#preto{
-    color: black;
-   }
 #carouselExampleIndicators,#carousel3,#carousel,#carousel4,#carousel5,#carousel6{
     margin-left: auto;
     margin-right: auto;
+}
+
+.carousel-item {
+    position: relative;
+}
+
+.capa {
+    background: rgba(0, 0, 0, 0.65);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
 }
    
