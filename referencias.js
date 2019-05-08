@@ -22,4 +22,7 @@ function matematica(){
 function medicinais(){
     window.open('http://www.ifpb.edu.br/sousa/noticias/2019/02/projeto-de-extensao-instala-canteiros-medicinais-em-sousa')
 }
+function concurso(){
+    window.open('https://www.ifpb.edu.br/joaopessoa/noticias/2018/02/aprovados-em-concurso-do-estado-alunos-do-ifpb-relatam-experiencia-na-graduacao')
+}
 
