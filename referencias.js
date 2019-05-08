@@ -34,4 +34,7 @@ function cordel(){
 function racismo(){
     window.open('https://www.ifpb.edu.br/campinagrande/noticias/2017/12/i-semana-de-combate-a-intolerancia-e-ao-racismo')
 }
+function agricultura(){
+    window.open('http://www.ifpb.edu.br/esperanca/noticias/2017/11/acoes-de-extensao-do-campus-esperanca')
+}
 
