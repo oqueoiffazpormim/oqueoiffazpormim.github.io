@@ -40,4 +40,7 @@ function agricultura(){
 function expotec(){
     window.open('http://www.ifpb.edu.br/noticias/2018/11/ifpb-participa-da-expotec-2018')
 }
+function lampeju(){
+    window.open('https://lampejuifpb.wordpress.com/about/')
+}
 
