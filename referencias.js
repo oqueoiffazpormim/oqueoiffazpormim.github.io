@@ -43,4 +43,7 @@ function expotec(){
 function lampeju(){
     window.open('https://lampejuifpb.wordpress.com/about/')
 }
+function inclusao(){
+    window.open('http://www.ifpb.edu.br/campinagrande/noticias/2016/11/semana-de-inclusao-de-campina-promoveu-conscientizacao-atraves-das-artes-1')
+}
 
