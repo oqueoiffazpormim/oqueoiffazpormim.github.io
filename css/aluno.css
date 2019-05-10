@@ -1,0 +1,36 @@
+#badge{
+    display: inline-block;
+    background-color: rgb(153, 0, 0);
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 25px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#dbad{
+    text-align: center
+}
+
+.card-body{
+    padding: 20px;
+    text-align: center
+}
+
+.card-text{
+    text-align: justify;
+}
+
+.card{
+    overflow: hidden; /* Faz o div não aumentar a altura por causa da imagem */
+}
+
+.card-img-top{
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
