@@ -957,7 +957,7 @@ button:focus { outline: none; }
 	}
 
 	.tm-testi {	padding: 60px 60px 60px 90px; }
-	.tm-social-icons-container { padding-bottom: 50px; }
+	.tm-social-icons-container { padding-bottom: 30px; }
 	.tm-nav-2-row {
 		margin-top: 40px;
 		margin-bottom: 30px;
@@ -999,7 +999,7 @@ button:focus { outline: none; }
 
 	.tm-testi {	padding: 60px 60px 60px 170px; }
 	.tm-content-box { padding: 90px 20px 40px; }
-	.tm-social-icons-container { padding-bottom: 80px; }
+	.tm-social-icons-container { padding-bottom: 30px; }
 
 	.tm-nav-2-row {
 		margin-top: 100px;
@@ -1116,5 +1116,8 @@ http://stackoverflow.com/questions/11173106/apply-style-only-on-ie */
 }
 .space {
 	margin-top: 5%;
-	margin-bottom: 5%;
+}
+
+.hico{
+	margin-top: 5%;
 }
