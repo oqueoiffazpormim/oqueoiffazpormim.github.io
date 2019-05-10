@@ -124,15 +124,8 @@ http://www.templatemo.com/tm-495-metro-fit
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 tm-services-col">
                         <div class="tm-about-box-3 tm-services-box-3 tm-gray-bordered">
                             <h2 class="tm-services-title tm-black-text">Donec id quam vulputate</h2>
-                            <p class="tm-about-description-3 tm-green-text">Nam tortor lacus, fringilla nex quam a,
-                                volupat
-                                laoreet dui. Nunc consequat nulla vel ipsum cursus, eu
-                                tempor mauris gravida. Donec sit amet.</p>
-                            <p class="tm-about-description-3 tm-green-text"><em>Nunc finibus vehicula pharetra. Fusce
-                                    sed
-                                    ante a
-                                    odio fringilla bibendum. Donec et pharetra orci. Praesent tempus efficitur
-                                    tellus.</em>
+                            <p class="tm-about-description-3 tm-green-text">
+                            <p class="tm-about-description-3 tm-green-text"><em></em>
                             </p>
                         </div>
                     </div>
@@ -217,42 +210,6 @@ http://www.templatemo.com/tm-495-metro-fit
 
         /* Google map
         ------------------------------------------------*/
-        var map = '';
-        var center;
-
-        function initialize() {
-            var mapOptions = {
-                zoom: 16,
-                center: new google.maps.LatLng(37.769725, -122.462154),
-                scrollwheel: false
-            };
-
-            map = new google.maps.Map(document.getElementById('google-map'), mapOptions);
-
-            google.maps.event.addDomListener(map, 'idle', function () {
-                calculateCenter();
-            });
-
-            google.maps.event.addDomListener(window, 'resize', function () {
-                map.setCenter(center);
-            });
-        }
-
-        function calculateCenter() {
-            center = map.getCenter();
-        }
-
-        function loadGoogleMap() {
-            var script = document.createElement('script');
-            script.type = 'text/javascript';
-            script.src = 'https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&' + 'callback=initialize';
-            document.body.appendChild(script);
-        }
-
-        // DOM is ready
-        $(function () {
-            loadGoogleMap(); // Google Map
-        });
     </script>
 
 </body>
