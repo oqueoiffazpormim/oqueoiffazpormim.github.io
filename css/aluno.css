@@ -9,6 +9,9 @@
     font-size: 15px;
     padding-left: 15px;
     padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 1.2;
 }
 
 #dbad{
@@ -33,4 +36,8 @@
     max-height: 100%;
     width: auto;
     height: auto;
+}
+
+.tm-about-row{
+    padding-bottom: 0;
 }
