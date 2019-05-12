@@ -1,6 +1,6 @@
 /*
 
-Metro Fit
+
 
 http://www.templatemo.com/tm-495-metro-fit
 
@@ -455,9 +455,10 @@ button:focus { outline: none; }
 	background-color: #EAEAEA;
 	color: #333;
 }
-
+.tm-red-bordered {	border: 1px solid #ca3608; }
 .tm-green-bordered {	border: 1px solid #008000; }
 .tm-gray-bordered { border: 1px solid #CDCDCD; }
+.tm-red-text { color: #ca3608;}
 .tm-green-text { color: #008000; }
 .tm-yellow-text { color: #FF0; }
 .tm-black-text { color: #000; }
