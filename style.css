@@ -14,4 +14,79 @@
     position: absolute;
     top: 0;
 }
+#badge_evento{
+    display: inline-block;
+    background-color:rgb(238, 215, 12);
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 25px;
+    text-align: center;
+    color: rgb(46, 46, 46);
+    font-size: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#badge_olimpiada{
+    display: inline-block;
+    background-color:green;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 25px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#badge_projeto{
+    display: inline-block;
+    background-color:  rgb(182, 26, 26);
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 25px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#dbad{
+    text-align: center
+}
+
+.card-body{
+    padding: 20px;
+    text-align: center
+}
+
+.card-text{
+    text-align: justify;
+}
+
+.card{
+    overflow: hidden; /* Faz o div não aumentar a altura por causa da imagem */
+}
+
+.card-img-top{
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
+.card-header{
+    background-color: #20bf6b;
+   
+}
+.btn-link{
+    color:white;
+}
+.accordion,.card-deck{ 
+    padding: 2% 2% 0% 3%;
+}
+
+.card img{
+    width: 400px;
+    height: 200px;
+}
    
