@@ -46,4 +46,49 @@ function lampeju(){
 function inclusao(){
     window.open('http://www.ifpb.edu.br/campinagrande/noticias/2016/11/semana-de-inclusao-de-campina-promoveu-conscientizacao-atraves-das-artes-1')
 }
+function olimpiadahistoria2017() {
+    window.open('https://estudante.ifpb.edu.br/noticias/equipe-do-campus-campina-ganha-bronze-em-olimpiada-de-historia ')
+}
+function olimpiadamatematica20161() {
+    window.open(' http://www.ifpb.edu.br/campinagrande/noticias/2016/12/alunos-do-campus-campina-grande-sao-premiados-na-olimpiada-pessoense-de-matematica ')
+}
+function geografia() {
+    window.open('http://www.ifpb.edu.br/noticias/2018/09/equipes-do-ifpb-sao-medalha-de-ouro-na-olimpiada-brasileira-de-geografia')
+}
+function tresSIMPIF() {
+    window.open(' http://www.ifpb.edu.br/noticias/2019/05/prpipg-anuncia-realizacao-do-3o-simpif ')
+}
+function seisartigos() {
+    window.open('http://www.ifpb.edu.br/campinagrande/noticias/2017/02/estudantes-de-campina-aprovam-seis-artigos-em-congresso-nacional')
+}
+function campanhalivros() {
+    window.open('https://www.ifpb.edu.br/campinagrande/noticias/2018/05/biblioteca-lanca-campanha-de-doacao-de-livros')
+}
+function semanaCienciaTecnologia2018() {
+    window.open('http://www.ifpb.edu.br/campinagrande/noticias/2018/11/semana-de-ciencia-e-tecnologia-do-campus-campina')
+}
+function arteemcena(){
+    window.open('http://www.ifpb.edu.br/guarabira/noticias/2017/10/campus-guarabira-realiza-projeto-de-extensao-arte-em-cena')
+}
+function musicaeesucacao(){
+    window.open('http://www.ifpb.edu.br/joaopessoa/noticias/2016/09/projeto-musica-e-educacao-chega-a-mais-duas-escolas-da-capital')
+}
+function novembromusical(){
+    window.open('http://www.ifpb.edu.br/cajazeiras/noticias/2017/11/projeto-novembro-musical-ano-ii')
+}
+function librasquim(){
+    window.open('http://www.ifpb.edu.br/joaopessoa/noticias/2019/01/glossario-de-quimica-em-libras-auxilia-no-processo-de-ensino-aprendizagem-de-alunos-do-campus-jp')
+}
+function intercambio(){
+    window.open('http://www.ifpb.edu.br/joaopessoa/noticias/2018/11/participantes-de-intercambio-promovem-i-workshop-projeto-201cenglish-through-toronto201d')
+}
+function olimpiadamatematica2016(){
+    window.open('http://www.ifpb.edu.br/cajazeiras/noticias/2016/08/premiacao-da-olimpiada-cajazeirense-de-matematica')
+}
+function biologia1(){
+    window.open('http://www.ifpb.edu.br/princesaisabel/noticias/2016/08/reuniao-de-apresentacao-do-programa-biologia-em-contexto')
+}
+function uraca(){
+    window.open('https://www.ifpb.edu.br/campinagrande/noticias/2018/03/extensionistas-de-campina-se-reunem-para-mapeamento-de-acoes')
+}
 
