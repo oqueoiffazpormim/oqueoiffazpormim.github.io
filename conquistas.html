@@ -25,7 +25,623 @@
         <!-- Corpo -->
         <div data-include="painel_simples_conquistas"></div>
 
-        <div data-include="conquistas"></div>
+        <div class="row tm-tabs-container">
+    <div class="tm-tab-links-col">
+        <nav>
+            <ul class="tm-tabs">
+
+                <li class="tm-tab-link-item">
+                    <a id="tab1" href="javascript:void(0)" class="tm-tab-link">
+                        <i class="fa fa-users tm-tab-icon"></i>
+                        <span class="tm-tab-link-label">Eventos</span>
+                    </a>
+                </li>
+
+                <li class="tm-tab-link-item">
+                    <a id="tab2" href="javascript:void(0)" class="tm-tab-link">
+                        <i class="fa fa-trophy tm-tab-icon"></i>
+                        <span class="tm-tab-link-label">Olimpiadas</span>
+                    </a>
+                </li>
+
+                <li class="tm-tab-link-item">
+                    <a id="tab3" href="javascript:void(0)" class="tm-tab-link">
+                        <i class="fa fa-globe tm-tab-icon"></i>
+                        <span class="tm-tab-link-label">Projetos/Extensões</span>
+                    </a>
+                </li>
+                <li class="tm-tab-link-item">
+                    <a id="tab5" href="javascript:void(0)" class="tm-tab-link">
+                        <i class="fa fa-bullhorn tm-tab-icon"></i>
+                        <span class="tm-tab-link-label">Canais</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="tm-tab-content-box-col">
+        <div id="tab1C" class="tm-tab-content-box">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="img/teatro.jpeg" alt="Primeiro Slide"
+                            style="width: 500px; height: 433px ">
+                        <div class="capa"></div>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Espetáculo teatral de alunos do IFPB Campina é apresentado em escola municipal
+                            </h5>
+                            <p><button type="button" class="btn btn-outline-success btn-sm" onclick="teatro()">Ler
+                                    mais</button></p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="img/cordel.jpeg" alt="Segundo Slide"
+                            style="width: 500px; height: 433px ">
+                        <div class="capa"></div>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Literatura de cordel para despertar o prazer pela leitura
+                            </h5>
+                            <p><button type="button" class="btn btn-outline-success btn-sm" onclick="cordel()">Ler
+                                    mais</button></p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="img/racismo.jpeg" alt="Terceiro Slide"
+                            style="width: 500px; height: 433px ">
+                        <div class="capa"></div>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>I Semana de Combate a Intolerância e ao Racismo
+                            </h5>
+                            <p><button type="button" class="btn btn-outline-success btn-sm" onclick="racismo()">Ler
+                                    mais</button></p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="img/expotec.jpeg" alt="Terceiro Slide"
+                            style="width: 500px; height: 433px ">
+                        <div class="capa"></div>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>IFPB participa da Expotec 2018
+                            </h5>
+                            <p><button type="button" class="btn btn-outline-success btn-sm" onclick="expotec()">Ler
+                                    mais</button></p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="img/inclusao.jpeg" alt="Quinto Slide">
+                        <div class="capa"></div>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Semana de inclusão de Campina promoveu conscientização através das artes</h5>
+                            <p><button type="button" class="btn btn-outline-success btn-sm" onclick="inclusao()">Ler
+                                    mais</button></p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="tab2C" class="tm-tab-content-box">
+            <div id="carousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel" data-slide-to="1"></li>
+                    <li data-target="#carousel" data-slide-to="2"></li>
+                    <li data-target="#carousel" data-slide-to="3"></li>
+                    <li data-target="#carousel" data-slide-to="4"></li>
+                    <li data-target="#carousel" data-slide-to="5"></li>
+                    <li data-target="#carousel" data-slide-to="6"></li>
+
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="img/biologia.jpeg" alt="Primeiro Slide">
+                        <div class="capa"></div>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Medalhas da 1ª fase da Olimpíada de Biologia</h5>
+                            <p><button type="button" class="btn btn-outline-success btn-sm" onclick="biologia()">Ler
+                                    mais</button></p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="img/informatica.jpeg" alt="Segundo Slide"
+                            style="width: 500px; height: 433px ">
+                        <div class="capa"></div>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Estudantes do campus Campina ganham ouro, prata e bronze em olimpíada
+                            </h5>
+                            <p><button type="button" class="btn btn-outline-success btn-sm" onclick="informatica()">Ler
+                                    mais</button></p>
+
+                        </div>
+
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="img/robotica.jpeg" alt="Terceiro Slide"
+                            style="width: 500px; height: 433px ">
+                        <div class="capa"></div>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Alunos da robótica se classificam para Etapa Estadual da OBR
+                            </h5>
+                            <p><button type="button" class="btn btn-outline-success btn-sm" onclick="robotica()">Ler
+                                    mais</button></p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="img/fisica.jpeg" alt="Quarto Slide"
+                            style="width: 500px; height: 433px ">
+                        <div class="capa"></div>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Campus Campina premia vencedores da Olimpíada Campinense de Física
+                            </h5>
+                            <p><button type="button" class="btn btn-outline-success btn-sm" onclick="fisica()">Ler
+                                    mais</button></p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="img/historia.jpeg" alt="Quinto Slide"
+                            style="width: 500px; height: 433px ">
+                        <div class="capa"></div>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>IFPB lidera número de finalistas da Paraíba em Olimpíada Nacional de História
+                            </h5>
+                            <p><button type="button" class="btn btn-outline-success btn-sm" onclick="historia()">Ler
+                                    mais</button></p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="img/quimica.png" alt="Sexto Slide"
+                            style="width: 440px; height: 433px ">
+                        <div class="capa"></div>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 id="preto">Estudantes do campus João Pessoa conquistam medalhas na Olimpíada Paraibana
+                                de Química
+                            </h5>
+                            <p><button type="button" class="btn btn-outline-success btn-sm" onclick="quimica()">Ler
+                                    mais</button></p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="img/matematica.jpeg" alt="Setimo Slide"
+                            style="width: 500px; height: 433px ">
+                        <div class="capa"></div>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Alunos do Campus Campina são premiados em Olimpíada de Matemática
+                            </h5>
+                            <p><button type="button" class="btn btn-outline-success btn-sm" onclick="matematica()">Ler
+                                    mais</button></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="tab3C" class="tm-tab-content-box">
+            <div id="carousel3" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel3" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel3" data-slide-to="1"></li>
+                    <li data-target="#carousel3" data-slide-to="2"></li>
+                    <li data-target="#carousel3" data-slide-to="3"></li>
+                    <li data-target="#carousel3" data-slide-to="4"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="img/projeto1.jpeg" alt="Primeiro Slide"
+                            style="width: 500px; height: 433px  ">
+                        <div class="capa"></div>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 id="preto">Curso FIC em Tecnologias Digitais</h5>
+
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="img/lampeju.jpg" alt="Segundo Slide"
+                            style="width: 500px; height: 433px ;">
+                        <div class="capa"></div>
+                        <div class="carousel-caption d-none d-md-block">
+                            <p><button type="button" class="btn btn-outline-success btn-sm" onclick="lampeju()">Ler
+                                    mais</button></p>
+
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="img/projeto3.jpeg" alt="Terceiro Slide"
+                            style="width: 500px; height: 433px ">
+                        <div class="capa"></div>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Projeto de extensão instala canteiros medicinais em Sousa
+                            </h5>
+                            <p><button type="button" class="btn btn-outline-success btn-sm" onclick="medicinais()">Ler
+                                    mais</button></p>
+
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="img/agricultura.jpeg" alt="Quarto Slide"
+                            style="width: 500px; height: 433px ;">
+                        <div class="capa"></div>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5> STRAF-ES amplia seu ciclo de parcerias participando em projeto de extensão do IFPB</h5>
+                            <p><button type="button" class="btn btn-outline-success btn-sm" onclick="agricultura()">Ler
+                                    mais</button></p>
+
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="img/prototipo.jpeg" alt="Quinto Slide"
+                            style="width: 500px; height: 433px ;">
+                        <div class="capa"></div>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5> Projeto de extensão apresenta protótipos na II INOVALE</h5>
+                            <p><button type="button" class="btn btn-outline-success btn-sm" onclick="prototipo()">Ler
+                                    mais</button></p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="tab5C" class="tm-tab-content-box">
+            <div id="carousel5" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel5" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel5" data-slide-to="1"></li>
+                    <li data-target="#carousel5" data-slide-to="2"></li>
+                    <li data-target="#carousel5" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="img/instagram.jpg" alt="Primeiro Slide"
+                            style="width: 500px; height: 433px ">
+                        <div class="carousel-caption d-none d-md-block">
+
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="img/twitter.jpg" alt="Segundo Slide"
+                            style="width: 500px; height: 433px ">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="img/youtube.png" alt="Terceiro Slide"
+                            style="width: 500px; height: 433px ">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="img/if.jpg" alt="quarta Slide"
+                            style="width: 500px; height: 433px ">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="carousel5" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="carousel5" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Próximo</span>
+                </a>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="accordion" id="accordionExample">
+    <div class="card">
+        <div class="card-header" id="headingOne">
+            <h5 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
+                    aria-expanded="true" aria-controls="collapseOne">
+                    Mostrar feitos de 2019
+                </button>
+            </h5>
+        </div>
+
+        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="card-deck">
+                            <div class="card">
+                                <img src="img/3SIMPIF.jpeg" class="card-img-top">
+                                <div class="card-body">
+                                    <div id="dbad">
+                                        <p id="badge_evento"><b>Evento</b></p>
+                                    </div>
+                                    <h5 class="card-title">PRPIPG anuncia realização do 3º Simpif</h5>
+
+                                    <p class="card-text">A PRPIPG irá realizar nos dias 28, 29 e 30 de novembro a
+                                        terceira edição do Simpósio de Pesquisa, Inovação e Pós-Graduação (III
+                                        SIMPIF) no Campus João Pessoa.</p>
+                                    <button type="button" class="btn btn-outline-success" onclick="tresSIMPIF()">Ler
+                                        mais</button>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="img/librasquim.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <div id="dbad">
+                                        <p id="badge_projeto"><b>Projeto/Extensão</b></p>
+                                    </div>
+                                    <h5 class="card-title">Glossário de Química em Libras auxilia no processo de
+                                        ensino-aprendizagem de alunos do campus JP</h5>
+                                    <p class="card-text">Catálogo possui 149 sinais para termos na utilizado na
+                                        Química </p>
+                                    <button type="button" class="btn btn-outline-success" onclick="librasquim();">Ler
+                                        mais</button>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="img/biologia.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <div id="dbad">
+                                        <p id="badge_olimpiada"><b>Olimpiada</b></p>
+                                    </div>
+                                    <h5 class="card-title">Medalhas da 1ª fase da Olimpíada de Biologia foram entregues
+                                    </h5>
+                                    <p class="card-text">Os oito estudantes que se destacaram na 15ª edição da Olimpíada
+                                        Brasileira de Biologia, realizada no mês de março, receberam suas medalhas no
+                                        dia 08 de abril. A primeira etapa da Olimpíada Brasileira de Biologia aconteceu
+                                        no IFPB Campus Cajazeiras e contou com a participação de 73 estudantes
+                                        inscritos. </p>
+                                    <button type="button" class="btn btn-outline-success" onclick="biologia();">Ler
+                                        mais</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="card">
+        <div class="card-header" id="headingTwo">
+            <h5 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo"
+                    aria-expanded="false" aria-controls="collapseTwo">
+                    Mostrar feitos de 2018
+                </button>
+            </h5>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+            <div class="card-deck">
+                <div class="card">
+                    <img src="img/geografia.jpeg" class="card-img-top" style="max-width: 120%;">
+                    <div class="card-body">
+                        <div id="dbad">
+                            <p id="badge_olimpiada"><b>Olimpiada</b></p>
+                        </div>
+                        <h5 class="card-title">Equipes do IFPB são medalha de ouro na Olimpíada Brasileira de
+                            Geografia
+                        </h5>
+
+                        <p class="card-text">Estudantes do campus Catolé do Rocha vão para a prova final. Campus
+                            Cabedelo e Campina também tiveram bom desempenho em olimpíadas do conhecimento</p>
+                        <button type="button" class="btn btn-outline-success" onclick="geografia();">Ler
+                            mais</button>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <img src="img/campanhalivros.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div id="dbad">
+                            <p id="badge_evento"><b>Evento</b></p>
+                        </div>
+                        <h5 class="card-title">Biblioteca lança campanha de doação de livros</h5>
+                        <p class="card-text">Uma campanha para doação de livros para a biblioteca do campus do IFPB-
+                            Campina Grande chamou a atenção da comunidade escolar </p>
+                        <button type="button" class="btn btn-outline-success" onclick="campanhalivros();">Ler
+                            mais</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/intercambio.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div id="dbad">
+                            <p id="badge_evento"><b>Evento</b></p>
+                        </div>
+                        <h5 class="card-title">Participantes de intercâmbio promovem I Workshop Projeto “English
+                            Through
+                            Toronto”</h5>
+                        <p class="card-text"></p>
+                        Os estudantes do IFPB que participaram do intercâmbio no Canadá estão promovendo o I
+                        Workshop Projeto “English Through Toronto”</p>
+                        <button type="button" class="btn btn-outline-success" onclick="intercambio();">Ler
+                            mais</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/uraca.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div id="dbad">
+                            <p id="badge_projeto"><b>Projeto/Extensão</b></p>
+                        </div>
+                        <h5 class="card-title">Extensionistas de Campina se reúnem para mapeamento de ações</h5>
+                        <p class="card-text">A caravana da Pró-reitoria de Extensão e Cultura está visitando todos
+                            os
+                            campi do IFPB para conhecer a realidade da extensão</p>
+                        <button type="button" class="btn btn-outline-success" onclick="uraca();">Ler
+                            mais</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="card">
+        <div class="card-header" id="headingThree">
+            <h5 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree"
+                    aria-expanded="false" aria-controls="collapseThree">
+                    Mostrar feitos de 2017
+                </button>
+            </h5>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+            <div class="card-deck">
+                <div class="card">
+                    <img src="img/olimpiadahistoria2017.jpeg" class="card-img-top">
+                    <div class="card-body">
+                        <div id="dbad">
+                            <p id="badge_olimpiada"><b>Olimpiada</b></p>
+                        </div>
+                        <h5 class="card-title">Equipe do Campus Campina ganha bronze em Olimpíada de História</h5>
+
+                        <p class="card-text">A competição reuniu mais de 300 equipes na Universidade Estadual de
+                            Campinas para a final da 9ª edição da Olimpíada Nacional em História do Brasil.</p>
+                        <button type="button" class="btn btn-outline-success" onclick="olimpiadahistoria2017();">Ler
+                            mais</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/seisartigos.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div id="dbad">
+                            <p id="badge_projeto"><b>Projeto/Extensão</b></p>
+                        </div>
+                        <h5 class="card-title">Estudantes de Campina aprovam seis artigos em congresso nacional</h5>
+                        <p class="card-text">Cinco alunos do curso técnico de mineração e um do curso técnico de
+                            informática aprovaram seis artigos no Congresso Nacional de Alimentos e Nutrição
+                            (Conan-2017) na Universidade Federal de Ouro Preto-MG (UFOP). </p>
+                        <button type="button" class="btn btn-outline-success" onclick="seisartigos();">Ler
+                            mais</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/arteemcena.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div id="dbad">
+                            <p id="badge_projeto"><b>Projeto/Extensão</b></p>
+                        </div>
+                        <h5 class="card-title">Campus Guarabira realiza projeto de extensão Arte em Cena</h5>
+                        <p class="card-text">O projeto visa promover o debate e a discussão sobre as questões e
+                            problemas sociais em escolas públicas estaduais e municipais por meio de apresentações
+                            teatrais realizadas por alunos</p>
+                        <button type="button" class="btn btn-outline-success" onclick="arteemcena();">Ler
+                            mais</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/novembromusical.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div id="dbad">
+                            <p id="badge_evento"><b>Evento</b></p>
+                        </div>
+                        <h5 class="card-title">Campus Cajazeiras participa de projeto Novembro Musical</h5>
+                        <p class="card-text">Evento de concertos e palestras aconteceu em Monteiro. Campus
+                            Cajazeiras
+                            foi representado pelo Projeto de Extensão "Banda Bê", coordenado pelo Prof. Matheus
+                            Lopes.
+                        </p>
+                        <button type="button" class="btn btn-outline-success" onclick="novembromusical();">Ler
+                            mais</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header" id="headingfour">
+            <h5 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapsefour"
+                    aria-expanded="true" aria-controls="collapsefour">
+                    Mostrar feitos de 2016
+                </button>
+            </h5>
+        </div>
+
+        <div id="collapsefour" class="collapse" aria-labelledby="headingfour" data-parent="#accordionExample">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="card-deck">
+                            <div class="card">
+                                <img src="img/olimpiadamatematica20161.jpeg" class="card-img-top">
+                                <div class="card-body">
+                                    <div id="dbad">
+                                        <p id="badge_olimpiada"><b>Olimpiada</b></p>
+                                    </div>
+                                    <h5 class="card-title">Alunos do Campus Campina são premiados em Olimpíada de
+                                        Matemática</h5>
+
+                                    <p class="card-text">A Olimpíada visa desenvolver e aperfeiçoar a capacitação
+                                        dos
+                                        professores, influenciar na melhoria do ensino e detectar jovens talentos
+                                    </p>
+                                    <button type="button" class="btn btn-outline-success"
+                                        onclick="olimpiadamatematica20161();">Ler
+                                        mais</button>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="img/musicaeeducacao.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <div id="dbad">
+                                        <p id="badge_projeto"><b>Projeto/Extensão</b></p>
+                                    </div>
+                                    <h5 class="card-title">Projeto Música e Educação chega a mais duas escolas da
+                                        capital</h5>
+                                    <p class="card-text">O Grupo de Sax do IFPB realizou mais uma apresentação
+                                        didático-musical dentro do projeto de extensão Música e Educação, que tem
+                                        como
+                                        um dos objetivos a divulgação dos cursos de música do campus João Pessoa.
+                                    </p>
+                                    <button type="button" class="btn btn-outline-success"
+                                        onclick="musicaeeducacao();">Ler
+                                        mais</button>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="img/olimpiadamatematica2016.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <div id="dbad">
+                                        <p id="badge_olimpiada"><b>Olimpiada</b></p>
+                                    </div>
+                                    <h5 class="card-title">Campeões da I Olimpíada de Matemática</h5>
+                                    <p class="card-text">Entrega de prêmios marcou o encerramento do III Encontro
+                                        Cajazeirense de Matemática</p>
+                                    <button type="button" class="btn btn-outline-success"
+                                        onclick="olimpiadamatematica2016();">Ler
+                                        mais</button>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="img/biologia1.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <div id="dbad">
+                                        <p id="badge_projeto"><b>Projeto/Extensão</b></p>
+                                    </div>
+                                    <h5 class="card-title">Reunião de apresentação do programa Biologia em contexto
+                                    </h5>
+                                    <p class="card-text">Formação continuada de professores da educação básica para
+                                        o
+                                        uso de coleções didáticas elaboradas com material de baixo custo</p>
+                                    <button type="button" class="btn btn-outline-success" onclick="biologia1();">Ler
+                                        mais</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
         <!-- Piso -->
         <div data-include="piso"></div>
