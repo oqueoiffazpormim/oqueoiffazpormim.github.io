@@ -21,3 +21,15 @@ function polonia(){
 function brics(){
     window.open('http://www.ifpb.edu.br/noticias/2018/06/aluna-do-campus-cabedelo-disputa-premio-internacional-de-jovens-cientistas');
 }
+
+function ifgo(){
+    window.open('https://www.ifgoiano.edu.br/home/index.php/ultimas-noticias-ipora/10964-estudante-do-campus-ipora-embarca-para-intercambio-na-europa.html');
+}
+
+function ifpe(){
+    window.open('https://www.ifsertao-pe.edu.br/index.php/a-instituicao/noticias-em-destaque/5436-estagio-nos-eua');
+}
+
+function ifpe(){
+    window.open('http://www.sjdr.ifsudestemg.edu.br/node/4525');
+}
