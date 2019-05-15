@@ -30,6 +30,6 @@ function ifpe(){
     window.open('https://www.ifsertao-pe.edu.br/index.php/a-instituicao/noticias-em-destaque/5436-estagio-nos-eua');
 }
 
-function ifpe(){
+function ifmg(){
     window.open('http://www.sjdr.ifsudestemg.edu.br/node/4525');
 }
