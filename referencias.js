@@ -91,4 +91,6 @@ function biologia1(){
 function uraca(){
     window.open('https://www.ifpb.edu.br/campinagrande/noticias/2018/03/extensionistas-de-campina-se-reunem-para-mapeamento-de-acoes')
 }
-
+function iypt(){
+    window.open('https://oqueoiffazpormim.github.io/depoimentos.html');
+}
